@@ -1,0 +1,15 @@
+[package]
+name = "rust-glsl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.17"
+winit = "0.28"
+env_logger = "0.10"
+log = "0.4"
+pollster = "0.3"
+bytemuck = { version = "1.13", features = ["derive"] }
+image = "0.24"
+rusttype = "0.9"
+cgmath = "0.18"
